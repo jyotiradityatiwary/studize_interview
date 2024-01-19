@@ -1,16 +1,28 @@
-# studize_interview
+# Studize - Interview
 
-A new Flutter project.
+This is a temporary flutter project specifically for the purpose of this interview.
 
-## Getting Started
+## How to get started
 
-This project is a starting point for a Flutter application.
+1. Clone this repository onto your own device
+2. Open repo's folder is VS Code. Make sure you have Flutter itself and the relevant VSCode extension installed.
+3. Run `pub get` in the terminal to get dependencies.
+4. Make the required changes and push to *your own* github profile. Share the link with us.
 
-A few resources to get you started if this is your first Flutter project:
+# Development Hints  🖥️
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Filesystem structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+lib                    <-- All the dart code goes here
+├── main.dart          <-- Starting point of the app
+├── screens            <-- This contains the indivisual UI screens
+│   ├── home_page.dart
+│   └── ...
+└── widgets            <-- This contains the reusable widgets
+    │                      used elsewhere in the code
+    ├── date_picker.dart
+    └── ...
+```
+
+**Tip:** Using `Ctrl+click` in VSCode to navigate to definitions of different classes in functions is easier than looking up the filesystem manually instead.
